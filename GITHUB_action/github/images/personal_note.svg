@@ -1,0 +1,23 @@
+<svg fill="none" viewBox="800x60" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="300%" height="300%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+        strong {
+          font-family: "Comic Sans", "Comic Sans MS", Chalkboard, ChalkboardSE-Regular, "Marker Felt", Purisa, "URW Chancery L", cursive, sans-serif;
+          color: limegreen;
+          font-size: 1.6em;
+        }
+
+        .blink {
+          animation: blink-animation 2s steps(5, start) infinite;
+        }
+        @keyframes blink-animation {
+          to {
+            visibility: hidden;
+          }
+        }
+      </style>
+	<strong>My Name is GRE-YOURI and I like <span class="blink">'Software Engineering'</span></strong>
+		</div>
+	</foreignObject>
+</svg>
